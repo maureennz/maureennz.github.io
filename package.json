@@ -19,14 +19,7 @@
   ],
   "author": "Nikhil Benesch <nikhil.benesch@gmail.com>",
   "license": "AGPLv3",
-  "dependencies": {
-    "express": "^4.4.3"
-  },
-  "engines": {
-    "node": "0.10.x"
-  }
-  {
-   "dependencies": {
+    "dependencies": {
     "bower":"^1.8.0",
     "grunt":"^1.0.1",
    },
@@ -34,6 +27,10 @@
     "start": "node ./www.js",
     "build": "grunt dist",
     "postinstall": "./node_modules/bower/bin/bower install && npm run build"
-   }
+   },
+  "engines": {
+    "node": "0.10.x"
+  }
+  {
 }
 }
